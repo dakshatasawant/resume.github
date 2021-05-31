@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Resume/CV Design</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f5f2f2;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 0.1px;
+  text-align: center;
+  background: rgb(12, 10, 10);
+}
+
+.header h1 {
+  font-family:Algerian;
+  color:rgb(230, 173, 99);
+  font-size: 60;
+}
+
+
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 25%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 75%;
+  background-color: #f8f0f0;
+  padding-left: 10px;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+/* Add a card effect for articles */
+.card {
+  background-color: rgb(247, 194, 133);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+        </style>
+        </head>
+<body>
+<div class="resume">
+   <div class="resume_left">
+     <div class="resume_profile">
+      <div class="header">
+         <img src="photo.jpg" alt="profile_pic"
+       style="width:100px;height:100px;">
+     </div>
+     </div>
+     <div class="resume_content_right">
+     <div class="resume_content">
+       <div class="resume_item resume_info">
+         <div class="title">
+             <div class="header">
+           <h1><p class="bold">Dakshata sawant</p></h1>
+             </div>
+         </div>
+         <div class="leftcolumn">
+             <div class="card">
+            <ul>
+           <li>
+             <div class="data">
+               1/204 B-wing azada nagar, sewri <br /> MUMBAI
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-mobile-alt"></i>
+             </div>
+             <div class="data">
+               +919326711686
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-envelope"></i>   
+             </div>
+             <div class="data">
+                dakshatadsawant@gmail.com
+             </div>
+           </li>
+         </ul>
+       <div class="resume_item resume_skills">
+         <div class="title">
+         <h1><p class="bold">skill's</p></h1>
+         <ul>
+           <li>
+             <div class="skill_name">
+               HTML
+             </div>
+           </li>
+           <hr>
+           <li>
+             <div class="skill_name">
+               CSS
+             </div>
+           </li>
+           <hr>
+           <li>
+             <div class="skill_name">
+              JAVASCRIPT
+             </div>
+           </li>
+           <hr>
+           <li>
+             <div class="skill_name">
+              SQL Query
+             </div>
+           </li>
+           <hr>
+           <li>
+             <div class="skill_name">
+               BootStrap
+             </div>
+           </li>
+           <hr>
+           <li>
+             <div class="skill_name">
+               C,C++
+             </div>
+           </li>
+           <hr>
+         </ul>
+         <div class="resume_item resume_social">
+          <div class="title">
+            <p class="bold">Social</p>
+          </div>
+          <ul>
+            <li>
+              <div class="icon">
+                <i class="fab fa-facebook-square"></i>
+              </div>
+              <div class="data">
+                <p class="semi-bold">Facebook</p>
+                <p>dakshatadsawant@facebook</p>
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fab fa-twitter-square"></i>
+              </div>
+              <div class="data">
+                <p class="semi-bold">Twitter</p>
+                <p>dakshatadsawant@twitter</p>
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="data">
+                <p class="semi-bold">Linkedin</p>
+                <p>dakshatadsawant@linkedin</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="resume_right">
+          <div class="resume_item resume_about">
+              <div class="title">
+                <h2><p class="bold">FINAL YEAR PROJECTS</p></h2>
+                <h3><p>MODERN MIRROR – (DRIVE INFORMATION RECORDER)</p></h3>
+                
+                <p>Additionally, factors such as the current weather conditions can influence how a person prepares for the day. </p>
+                <p> An efficient way to check all the factors that can affect  a person prepares for the day while also not adversely affecting the task that are performed in front of a mirror.</p>
+                <p>The Goal of our project was to create a product that will provide quick and easy access to the time,news and weather while simultaneously allowing a person to go through their morning routine.</p>
+                <p>Our product should enhance productivity while providing a functional and enjoyable user experience.</p>
+               </div>
+      </div>
+   </div>
+       </div>
+           </div>
+         </div>
+       </div>
+      </div>
+       </div>
+     </div>
+     </div>
+        <div class="rightcolumn">
+            <div class="card">
+    <div class="resume_right">
+    <div class="resume_item resume_about">
+        <div class="title">
+          <h1><p class="bold">About Me</p></h1>
+         </div>
+         <p class="bold">Full Stack Developer</p>
+        <p>I am a dakshata dasharath sawant currently pursuing my B.E in Electronic from Mumbai University</p>
+        <p>I am interested to work as a Full Stack Developer</p>
+        <p>My strengths or a positive attitude,punctuality and good in management skills</p>
+        <p>I am skilled in planning,designing,developing,implementing and also good in java and C programming</p>
+        <p>My Goal is to build a successfull career as a full stack developer</p>
+        <p>I am Aspiring to work effectively, dedicatedly and contribute towards the organization’s targets and aspirations.</p>
+    </div>
+    <article>
+    <div class="resume_item resume_work">
+        <div class="title">
+           <h1><p class="bold">Work Experience</p></h1>
+         </div>
+        <ul>
+            <li>
+                <div class="date">2019</div> 
+                <div class="info">
+                     <p class="semi-bold">Giant Wheel Training Institute</p> 
+                  <p>There I work for 2-3 months in my drop period time</p>
+                  <p>I am a computer teacher there for International school</p>
+                  <p>for std 10 and 9 i am teaching html javascript</p>
+                </div>
+            </li>
+            </ul>
+    </div>
+    <div class="resume_item resume_education">
+      <div class="title">
+           <h1><p class="bold">Education</p></h1>
+         </div>
+      <ul>
+            <li>
+                <div class="date">2013</div> 
+                <div class="info">
+                     <p class="semi-bold">SSC</p> 
+                  <p>ABHYUDAYA EDUCATION SOCIETY HIGH SCHOOL,MUMBAI</p>
+                    <p>63.27%</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2015</div>
+              <div class="info">
+                     <p class="semi-bold">HSC (PCMB)</p> 
+                  <p>VEER RANI CHANNAMMA RURAL EDUCATION INSTITUTE,KUNNUR</p>
+                   <p> 64.5% </p>	
+                </div>
+            </li>
+            <li>
+              <div class="date">2021</div>
+              <div class="info">
+                     <p class="semi-bold">BACHELOR OF ENGINEERING(ELECTRONICS)</p> 
+                  <p>VIDYALANKAR INSTITUTE OF TECHNOLOGY, MUMBAI </p>
+                   <p> sem 7: cgpa=8.96 </p>	
+                </div>
+            </li>
+        </ul>
+    </div>
+  </div>
+</div>
+    <div class="resume_item resume_hobby">
+      <div class="title">
+        <div class="footer">
+          <div class="card">
+            <div class="nav">
+      <h1><p class="bold">Hobby</p></h1>
+       <ul class="nav">
+         <li><i class="fas fa-book"></i></li>
+         <li><i class="fas fa-gamepad"></i></li>
+         <li><i class="fas fa-music"></i></li>
+         <li><i class="fab fa-pagelines"></i></li>
+      </ul>
+    </div>
+    </div>
+   </div>
+      </div>
+    </div>
+</div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
